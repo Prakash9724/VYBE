@@ -22,6 +22,12 @@
   src: url('/public/fonts/Avenis.otf')format('truetype');
 
 }
+
+@font-face {
+  font-family: "hel2";
+  src: url('/public/fonts/helveticanowtext-black-demo.ttf')format('truetype');
+
+}
 html,body{
     margin:0;
     padding:0;
