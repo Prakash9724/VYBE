@@ -141,10 +141,10 @@ const Page3 = () => {
               WebkitTextStroke: "3px white",
             }}
           >
+            <span className="block leading-[0.9] ">N</span>
             <span className="block leading-[0.9] ">E</span>
-            <span className="block leading-[0.9] ">D</span>
-            <span className="block leading-[0.9]">G</span>
-            <span className="block leading-[0.9]">E</span>
+            <span className="block leading-[0.9]">O</span>
+            <span className="block leading-[0.9]">N</span>
           </h1>
 
           <h1 className=" h-fit text-3xl text-gray-500 mt-3  -translate-x-18 translate-y-[38.5rem] ">
