@@ -118,19 +118,19 @@ const LimitedAddition = () => {
       {/* Header Section */}
       <div className="flex flex-col lg:flex-row items-center justify-between mb-8 lg:mb-12 gap-6 lg:gap-0">
         {/* Timer Section */}
-        <div className="bg-pink-100 rounded-2xl p-4 md:p-6 flex flex-col items-center">
+        <div className="bg-[#FFE3E2] rounded-2xl p-4 md:p-6 flex flex-col items-center">
           <div className="flex items-center gap-2 mb-3">
-            <div className="w-4 h-4 bg-pink-300 rounded-full"></div>
+            <div className="w-4 h-4 bg-[#FFE3E2] rounded-full"></div>
             <span className="text-black font-medium text-sm md:text-base">New drop in</span>
           </div>
-          <div className="flex gap-2">
-            <div className="bg-pink-200 rounded-lg px-3 py-2">
+          <div className="flex gap-2 font-[av]">
+            <div className="bg-white rounded-lg px-3 py-2">
               <span className="text-black font-bold text-sm md:text-base">{timeLeft.days.toString().padStart(2, '0')}d</span>
             </div>
-            <div className="bg-pink-200 rounded-lg px-3 py-2">
+            <div className="bg-white rounded-lg px-3 py-2">
               <span className="text-black font-bold text-sm md:text-base">{timeLeft.hours.toString().padStart(2, '0')}h</span>
             </div>
-            <div className="bg-pink-200 rounded-lg px-3 py-2">
+            <div className="bg-white rounded-lg px-3 py-2">
               <span className="text-black font-bold text-sm md:text-base">{timeLeft.minutes.toString().padStart(2, '0')}m</span>
             </div>
           </div>

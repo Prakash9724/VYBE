@@ -6,6 +6,7 @@ import Page3 from './Pages/Page3'
 import Footer from './components/Footer'
 import Page4 from './Pages/Page4'
 import LimitedAddition from './components/LimitedAddition'
+import Page5 from './Pages/Page5'
 
 const App = () => {
   return (
@@ -16,9 +17,10 @@ const App = () => {
       <Page2/>
     <Page3/>
     <Page4/>
+    <Page5/>
 
-    {/* <LimitedAddition/>
-    <Footer/> */}
+    <LimitedAddition/>
+    <Footer/>
     </div>
       </div>
   )
